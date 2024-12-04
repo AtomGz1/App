@@ -3,7 +3,7 @@ const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
-let intervalID; // Variable global para el identificador del intervalo
+let intervalID; 
 
 search.addEventListener('click', () => {
     const APIKey = '55231b3811071ae335e463006f206de0';
